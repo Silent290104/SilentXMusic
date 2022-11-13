@@ -55,8 +55,8 @@ async def varsFunc(client, message):
         start = "No"
     else:
         start = f"[Image]({config.START_IMG_URL})"
-    s_c = f"[Channel](https://t.me/Hd_New_Movies_Hindi_4k_1)"
-    s_g = f"[Group](https://t.me/Total_masti)"
+    s_c = f"[Channel](https://t.me/LCG_100)"
+    s_g = f"[Group](https://t.me/GroupLetsChatguys)"
     if not config.GIT_TOKEN:
         token = "No"
     else:
