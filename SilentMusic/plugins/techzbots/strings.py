@@ -29,10 +29,10 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/Hd_New_Movies_Hindi_4k_1"
+                text="📣 Updates Channel", url="https://t.me/LCG_100"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/Total_masti"
+                text="💬 Support Group", url="https://t.me/GroupLetsChatguys"
             ),                       
         ],        
     ]
@@ -51,10 +51,10 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/Hd_New_Movies_Hindi_4k_1"
+                text="📣 Updates Channel", url="https://t.me/LCG_100"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/Total_masti"
+                text="💬 Support Group", url="https://t.me/GroupLetsChatguys"
             ),                       
         ],        
     ]
