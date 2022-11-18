@@ -4,15 +4,19 @@ from config import MUSIC_BOT_NAME as BOT_NAME
 
 BOT_USERNAME = app.username
 START_TEXT = f"""
-✨ **Hello MENTION !**
+🥀 **ʜᴇʏ MENTION !**
 
-**You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
+**ᴛʜɪs ɪs [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ 📚 Commands button**
+ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.
+sᴜᴘᴘᴏʀᴛᴇᴅ ᴘʟᴀᴛғᴏʀᴍs : ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ ᴀɴᴅ sᴏᴜɴᴅᴄʟᴏᴜᴅ.
+
+
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs. ❄️ʜᴇʟᴘ❄️**
 """
 
 COMMANDS_TEXT = f"""
-✨ **Hello MENTION !**
+🥀 **ʜᴇʏ MENTION !**
 
 **Click on the buttons below to know my commands.**
 """
@@ -21,7 +25,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text="❄️ʜᴇʟᴘ❄️", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text="🔧 Settings", callback_data="settings_helper"
@@ -29,10 +33,10 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/LCG_100"
+                text="ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/SanayaQueen_Update"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/GroupLetsChatguys"
+                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/GroupLetsChatguys"
             ),                       
         ],        
     ]
@@ -41,20 +45,20 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
 START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="➕ Add me to Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                text="➕ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙʏ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             ),            
         ],
         [   
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text="❄️ʜᴇʟᴘ❄️", callback_data="command_menu"
             ),                       
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/LCG_100"
+                text="ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/SanayaQueen_Update"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/GroupLetsChatguys"
+                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/GroupLetsChatguys"
             ),                       
         ],        
     ]
